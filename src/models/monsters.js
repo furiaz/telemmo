@@ -91,7 +91,7 @@ const monsters = [
     dex: 6,
     loot: {
       types: ['Wind', 'Earth'],
-      max: 3,
+      max: 5,
     },
   },
   {
@@ -147,8 +147,8 @@ const monsters = [
     int: 8,
     dex: 8,
     loot: {
-      types: ['Rock', 'Earth', 'Wind'],
-      max: 3,
+      types: ['Wind'],
+      max: 6,
     },
   },
   {
@@ -205,7 +205,7 @@ const monsters = [
     dex: 10,
     loot: {
       types: ['Earth', 'Wind', 'Shock'],
-      max: 8,
+      max: 9,
     },
   },
   {
@@ -223,8 +223,8 @@ const monsters = [
     int: 35,
     dex: 35,
     loot: {
-      types: ['Water', 'Shock'],
-      max: 8,
+      types: ['Water', 'Earth'],
+      max: 10,
     },
   },
   {
@@ -242,8 +242,8 @@ const monsters = [
     int: 35,
     dex: 30,
     loot: {
-      types: ['Water', 'Wind', ],
-      max: 10,
+      types: ['Water', 'Shock', 'Wind', ],
+      max: 11,
     },
   },
   {
@@ -300,11 +300,11 @@ const monsters = [
     dex: 65,
     loot: {
       types: ['Wind', 'Shock'],
-      max: 18,
+      max: 14,
     },
   },
   {
-    name: 'Flying Demon',
+    name: 'Mud Monster',
     maps: [
       {
         name: 'Demonic Forest',
@@ -318,8 +318,8 @@ const monsters = [
     int: 65,
     dex: 60,
     loot: {
-      types: ['Wind'],
-      max: 20,
+      types: ['Earth', 'Water'],
+      max: 15,
     },
   },
   {
