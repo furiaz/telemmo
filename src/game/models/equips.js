@@ -202,7 +202,7 @@ export default [
   {
     id: 'foliage',
     name: 'Foliage Camouflage',
-    description: 'I\'m not repeating the Leaf Dagger joke... No, dammit, get one :|',
+    description: 'I\'m not repeating the Leaf Blade joke... No, dammit, get one :|',
     type: 'set',
     tier: 2,
     bonus: {
